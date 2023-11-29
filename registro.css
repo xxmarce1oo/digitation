@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  .registro-container {
+    max-width: 300px;
+    padding: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(gamer.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #222222;
+    color: white;
+    font-family: inherit;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  input[type="submit"] {
+    background-color: greenyellow;
+  }
+
+  a {
+    color: greenyellow;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
